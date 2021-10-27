@@ -35,7 +35,6 @@ namespace Empleados.Models.EmpleadosViewModels
 
         [Required]
         [Display(Name = "Sub Área")]
-        public string Sub_area { get; set; }
-        
+        public string Sub_area { get; set; }        
     }
 }
