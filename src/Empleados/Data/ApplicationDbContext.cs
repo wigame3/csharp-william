@@ -24,5 +24,9 @@ namespace Empleados.Data
         }
 
         public virtual DbSet<Empleados.Models.EmpleadosViewModels.Empleado> Empleado { get; set; }
+
+        public virtual DbSet<Empleados.Models.AreasViewModels.Areas> Areas { get; set; }
+
+        public virtual DbSet<Empleados.Models.SubAreasViewModels.SubAreas> SubAreas { get; set; }
     }
 }
