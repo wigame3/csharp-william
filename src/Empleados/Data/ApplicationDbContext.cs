@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Empleados.Models;
+using Empleados.Models.SubAreasViewModels;
 
 namespace Empleados.Data
 {
@@ -28,5 +29,7 @@ namespace Empleados.Data
         public virtual DbSet<Empleados.Models.AreasViewModels.Areas> Areas { get; set; }
 
         public virtual DbSet<Empleados.Models.SubAreasViewModels.SubAreas> SubAreas { get; set; }
+
+        public DbSet<SubArea> SubArea { get; set; }
     }
 }
